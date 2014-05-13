@@ -12,12 +12,12 @@
 public class Dijkstra {
 
     public static void main(String[] args) {
-        World kesp = new World();
-        Vertex a = kesp.addVertex(new Vertex("A"));
-        Vertex b = kesp.addVertex(new Vertex("B"));
-        Vertex c = kesp.addVertex(new Vertex("C"));
-        Vertex d = kesp.addVertex(new Vertex("D"));
-        Vertex e = kesp.addVertex(new Vertex("E"));
+        World america = new World();
+        Vertex a = america.addVertex(new Vertex("A"));
+        Vertex b = america.addVertex(new Vertex("B"));
+        Vertex c = america.addVertex(new Vertex("C"));
+        Vertex d = america.addVertex(new Vertex("D"));
+        Vertex e = america.addVertex(new Vertex("E"));
         
         a.addEdge(b , 5);
         a.addEdge(c , 7);
@@ -28,6 +28,6 @@ public class Dijkstra {
         c.addEdge(d , 8);
         d.addEdge(e , 2);
         
-        System.out.println(kesp.shortestDist(a.toString() , e.toString()));
+        System.out.println(america.shortestDist(a.toString() , e.toString()));
     }
 }
