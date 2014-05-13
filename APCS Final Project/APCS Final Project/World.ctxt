@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=World()
+comment1.params=v
+comment1.target=Vertex\ addVertex(Vertex)
+comment2.params=s
+comment2.target=boolean\ deleteVertex(java.lang.String)
+comment3.params=s
+comment3.target=Vertex\ getVertex(java.lang.String)
+comment4.params=s\ b
+comment4.target=boolean\ setActiveVertex(java.lang.String,\ boolean)
+comment5.params=
+comment5.target=java.util.List\ getPath()
+comment6.params=start\ end
+comment6.target=double\ shortestDist(java.lang.String,\ java.lang.String)
+numComments=7
